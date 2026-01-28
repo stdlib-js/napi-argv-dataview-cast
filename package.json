@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/napi-argv-dataview-cast",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert a Node-API value corresponding to a DataView to a pointer having a specified data type.",
   "license": "Apache-2.0",
   "author": {
@@ -42,7 +42,7 @@
     "@stdlib/assert-napi-status-ok": "^0.2.2",
     "@stdlib/napi-argv": "^0.2.2",
     "@stdlib/napi-argv-dataview": "github:stdlib-js/napi-argv-dataview#main",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.2",
@@ -84,11 +84,6 @@
     "array",
     "struct"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
